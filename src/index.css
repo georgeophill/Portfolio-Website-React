@@ -120,5 +120,18 @@ img {
   .container{
     width: var(--container-width-md);
   }
+  section {
+    margin-top: 6rem;
+  }
+}
 
+/*=================== Media Queries (Medium Devices) ====================*/
+
+@media screen and (max-width: 600px) {
+  .container{
+    width: var(--container-width-md);
+  }
+  section {
+    margin-top: 6rem;
+  }
 }
