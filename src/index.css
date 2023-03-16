@@ -125,13 +125,13 @@ img {
   }
 }
 
-/*=================== Media Queries (Medium Devices) ====================*/
+/*=================== Media Queries (Small Devices) ====================*/
 
 @media screen and (max-width: 600px) {
   .container{
-    width: var(--container-width-md);
+    width: var(--container-width-sm);
   }
-  section {
-    margin-top: 6rem;
+  section > h2 {
+    margin-bottom: 2rem;
   }
 }
