@@ -41,7 +41,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>HTML and CSS </p>
+              <p>Responisve HTML and CSS </p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -70,7 +70,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p> Sketch</p>
+              <p> Accessibility and Best Practices</p>
             </li>
           </ul>
         </article>
