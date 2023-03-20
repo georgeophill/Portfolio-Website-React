@@ -7,10 +7,9 @@ import {GiFiles} from 'react-icons/gi'
 import {BiMessageSquareDetail} from 'react-icons/bi'
 
 const nav = () => {
-  return [activeNav, setActiveNav] = ( useState = '#')
   return (
     <nav>
-      <a href="#"className='active'><AiOutlineHome/></a>
+      <a href="#" className='active'><AiOutlineHome/></a>
       <a href="#about"><AiOutlineUser/></a>
       <a href="#experience"><BiBook/></a>
       <a href="#portfolio"><GiFiles/></a>
