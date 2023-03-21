@@ -45,7 +45,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p> PHP</p>
+              <p> SEO (Search Engine Optimisation)</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
@@ -64,10 +64,10 @@ const Services = () => {
               <BiCheck className='service__list-icon'/>
               <p> Adobe Photoshop</p>
             </li>
-            <li>
+            {/* <li>
               <BiCheck className='service__list-icon'/>
-              <p> SEO (Search Engine Optimisation)</p>
-            </li>
+              <p> </p>
+            </li> */}
             <li>
               <BiCheck className='service__list-icon'/>
               <p> Accessibility and Best Practices</p>
