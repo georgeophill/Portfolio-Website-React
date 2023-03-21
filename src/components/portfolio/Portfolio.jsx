@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/Eveentmonkey.png'
 import IMG2 from '../../assets/lechef1.png'
-import IMG3 from '../../assets/Eveentmonkey.png'
+import IMG3 from '../../assets/in the making.png'
 
 const data = [
   {
@@ -17,18 +17,18 @@ const data = [
     image: IMG2,
     title: 'LeChef - Book Your Own Private Chef',
     github: 'https://github.com/iliaswa/LeChef1',
-    demo: 'http://www.eventmonkey.fun/',
+    demo: '',
   },
 
   // ===== ADD FUTURE PORTFOLIO PROJECTS HERE ========
 
-  // {
-  //   id: 3,
-  //   image: IMG2,
-  //   title: 'LeChef - Book Your Own Private Chef',
-  //   github: 'https://github.com/iliaswa/LeChef1',
-  //   demo: 'http://www.eventmonkey.fun/',
-  // },
+  {
+    id: 3,
+    image: IMG3,
+    title: 'A new project is on its way',
+    github: 'https://github.com/georgeophill',
+    demo: '',
+  },
   // {
   //   id: 4,
   //   image: IMG2,
