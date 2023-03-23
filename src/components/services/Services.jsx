@@ -49,8 +49,13 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p> React.js</p>
+              <p> Scaleable Software</p>
             </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p> Web System Architecture</p>
+            </li>
+
           </ul>
         </article>
         {/* END OF WEB DEV */}

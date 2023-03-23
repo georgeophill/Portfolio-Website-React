@@ -66,6 +66,7 @@ header {
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 1.2rem;
+  margin-bottom: 1.8rem;;
 }
 
 /*=================== Media Queries (Medium Devices) ====================*/
