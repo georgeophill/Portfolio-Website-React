@@ -24,6 +24,7 @@ header {
 
 .header__socials {
   display: flex;
+  font-size: 1.2rem;
   flex-direction: column;
   align-items: center;
   gap: 0.8rem;
@@ -35,7 +36,7 @@ header {
 
 .header__socials::after {
   content: '';
-  width: 1px; /* change size of line below icons*/
+  width: 4px; /* change size of line below icons*/
   height: 2rem;
   background: var(--color-primary);
 }
@@ -64,7 +65,7 @@ header {
   bottom: 5rem;
   transform: rotate(90deg);
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 /*=================== Media Queries (Medium Devices) ====================*/

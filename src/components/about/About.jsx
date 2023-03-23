@@ -28,7 +28,7 @@ const About = () => {
           <article className='about__card'>
             <FiUsers className='about__icon'/>
             <h5>Clients</h5>
-            <small>10+</small>
+            <small>3</small>
           </article>
           <article className='about__card'>
             <VscFolderLibrary className='about__icon'/>
@@ -37,7 +37,7 @@ const About = () => {
           </article>
         </div>
         <p>Highly driven, enthusiastic individual with a constant drive to self-improve shown through my curiosity to learn, as well as a passion for technological change and connecting with people. Being a millennial baby, a career in tech is seemingly an
-imperative path that I will take and something I want to learn more about imminently. I aspire to be a top Software Developer since it allows me to mix my interest in tech with my love for design.
+imperative path that I will take and something I want to learn more about imminently. I aspire to be a top Software Developer since it allows me to mix my passion in agile development with my love for design.
         </p>
 
         <a href="#contact" className='btn btn-primary'> Lets Talk</a>
