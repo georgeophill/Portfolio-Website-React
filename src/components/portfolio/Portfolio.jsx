@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/Eveentmonkey.png'
 import IMG2 from '../../assets/lechef1.png'
-import IMG3 from '../../assets/in the making.png'
+import IMG3 from '../../assets/flashcard.png'
 
 const data = [
   {
@@ -25,9 +25,9 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'A new project is on its way',
-    github: 'https://github.com/georgeophill',
-    demo: '',
+    title: 'Flascard App',
+    github: 'https://github.com/PiroAvni/Educational_APP_Server_MongoDB',
+    demo: 'https://educational-app.onrender.com/',
   },
   // {
   //   id: 4,
