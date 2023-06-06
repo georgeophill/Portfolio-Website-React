@@ -2,7 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/Eveentmonkey.png'
 import IMG2 from '../../assets/lechef1.png'
-import IMG3 from '../../assets/flashcard.png'
+import IMG3 from '../../assets/flashy.png'
 
 const data = [
   {
