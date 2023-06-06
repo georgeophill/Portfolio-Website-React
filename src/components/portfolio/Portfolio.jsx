@@ -25,7 +25,7 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Flascard App',
+    title: 'Flashcard App',
     github: 'https://github.com/PiroAvni/Educational_APP_Server_MongoDB',
     demo: 'https://educational-app.onrender.com/',
   },
