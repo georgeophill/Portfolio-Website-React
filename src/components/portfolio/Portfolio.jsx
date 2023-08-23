@@ -4,6 +4,9 @@ import IMG1 from '../../assets/Eveentmonkey.png'
 import IMG2 from '../../assets/lechef1.png'
 import IMG3 from '../../assets/flashy.png'
 import IMG4 from '../../assets/bump.png'
+import IMG5 from '../../assets/SS - Cover photo.png'
+import IMG6 from '../../assets/TT - Cover photo.png'
+
 
 const data = [
   {
@@ -16,21 +19,18 @@ const data = [
   },
   {
     id: 2,
+    image: IMG5,
+    title: 'Scotland Safaris',
+    github: 'https://github.com/georgeophill/scotland-safaris/tree/main/scotland-safaris/scotland-safaris',
+    demo: '',
+  },
+  {
+    id: 3,
     image: IMG1,
     title: 'EventMonkey - Find Events You Love',
     github: 'https://github.com/iliaswa/EventMonkey',
     demo: 'http://www.eventmonkey.fun/',
   },
-  {
-    id: 3,
-    image: IMG2,
-    title: 'LeChef - Book Your Own Private Chef',
-    github: 'https://github.com/iliaswa/LeChef1',
-    demo: '',
-  },
-  
-  // ===== ADD FUTURE PORTFOLIO PROJECTS HERE ========
-  
   {
     id: 4,
     image: IMG3,
@@ -38,6 +38,24 @@ const data = [
     github: 'https://github.com/PiroAvni/Educational_APP_Server_MongoDB',
     demo: 'https://educational-app.onrender.com/',
   },
+  {
+    id: 5,
+    image: IMG2,
+    title: 'LeChef - Book Your Own Private Chef',
+    github: 'https://github.com/iliaswa/LeChef1',
+    demo: '',
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: 'Teenagers Translated - A Parents Survival Guide (WIP)',
+    github: 'https://github.com/georgeophill/scotland-safaris/tree/main/teenagers-translated',
+    demo: '',
+  },
+  
+  // ===== ADD FUTURE PORTFOLIO PROJECTS HERE ========
+  
+
 ]
 
 const Portfolio = () => {
