@@ -26,6 +26,10 @@ const Services = () => {
               <BiCheck className='service__list-icon'/>
               <p> Sketch</p>
             </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p> Frameworks</p>
+            </li>
           </ul>
         </article>
         {/* END OF UI/UX */}
