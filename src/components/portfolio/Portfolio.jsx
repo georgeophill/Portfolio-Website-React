@@ -1,9 +1,9 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/Eveentmonkey.png'
-import IMG2 from '../../assets/lechef1.png'
+// import IMG2 from '../../assets/lechef1.png'
 import IMG3 from '../../assets/flashy.png'
-import IMG4 from '../../assets/bump.png'
+import IMG4 from '../../assets/newbump.png'
 import IMG5 from '../../assets/SS - Cover photo.png'
 import IMG6 from '../../assets/TT - Cover photo.png'
 
@@ -38,13 +38,13 @@ const data = [
     github: 'https://github.com/PiroAvni/Educational_APP_Server_MongoDB',
     demo: 'https://educational-app.onrender.com/',
   },
-  {
-    id: 5,
-    image: IMG2,
-    title: 'LeChef - Book Your Own Private Chef',
-    github: 'https://github.com/iliaswa/LeChef1',
-    demo: '',
-  },
+  // {
+  //   id: 5,
+  //   image: IMG2,
+  //   title: 'LeChef - Book Your Own Private Chef',
+  //   github: 'https://github.com/iliaswa/LeChef1',
+  //   demo: '',
+  // },
   {
     id: 6,
     image: IMG6,
@@ -75,8 +75,8 @@ const Portfolio = () => {
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
                 <a href={github} rel='noreferrer' className='btn' target='_blank'>Github</a>
-                { id=1 && github1 && ( 
-                <a href={github1} rel='noreferrer' className='btn' target='_blank'>Github(Client-Side)</a>
+                { id === 1 && github1 && ( 
+                <a href={github1} rel='noreferrer' className='btn' target='_blank'>Github</a>
                 )}
                 <a href={demo} rel='noreferrer' className='btn btn-primary' target='_blank'>Demo</a>
                 </div>
