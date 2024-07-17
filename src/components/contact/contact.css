@@ -10,6 +10,7 @@
   flex-direction: column;
   gap: 1.2rem;
 }
+
 .contact__option {
   background: var(--color-bg-variant);
   padding: 1.2rem;
@@ -43,16 +44,16 @@ form {
   gap: 1.2rem;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
   background: transparent;
   border: 2px solid var(--color-primary-variant);
   resize: none;
-  color: var(--color-white)
+  color: var(--color-white);
 }
-
 
 /*=================== Media Queries (Medium Devices) ====================*/
 
@@ -67,6 +68,6 @@ input, textarea {
 
 @media screen and (max-width: 600px) {
   .container.contact__container {
-    width: var(--container-width-sm)
+    width: var(--container-width-sm);
   }
 }
