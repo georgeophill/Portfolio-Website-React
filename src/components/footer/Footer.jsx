@@ -19,12 +19,6 @@ const Footer = () => {
           <li><a href="#contact">Contact</a></li>
         </ul>
 
-        <div className="footer__socials">
-          <a href="https://www.facebook.com/george.p.hill.50"><FaFacebookF/></a>
-          <a href="https://www.instagram.com/georgehill349/"><FiInstagram/></a>
-          <a href="https://twitter.com/GeorgeH48296279"><IoLogoTwitter/></a>
-        </div>
-
         <div className="footer__copyright">
           <small>&copy; GeorgeHill. All rights reserved.</small>
         </div>

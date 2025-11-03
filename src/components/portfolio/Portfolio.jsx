@@ -4,25 +4,43 @@ import IMG1 from "../../assets/Eveentmonkey.png";
 // import IMG2 from '../../assets/lechef1.png'
 import IMG3 from "../../assets/flashy.png";
 import IMG4 from "../../assets/newbump.png";
-import IMG5 from "../../assets/SS - Cover photo.png";
+import IMG5 from "../../assets/ScotlandSafaris.jpg";
 import IMG6 from "../../assets/TT - Cover photo.png";
+import IMG7 from "../../assets/SafeSpace.jpg";
+import IMG8 from "../../assets/FinnGibson.jpg";
 
 const data = [
   {
-    id: 6,
-    image: IMG6,
-    title: "Teenagers Translated - A Parents Survival Guide",
+    id: 7,
+    image: IMG8,
+    title: "Finn Gibson",
     github:
-      "https://github.com/georgeophill/scotland-safaris/tree/main/teenagers-translated",
-    demo: "https://www.teenagerstranslated.co.uk/",
+      "",
+    demo: "https://shutter-stories-hub-63.lovable.app/",
+  },
+  {
+    id: 6,
+    image: IMG7,
+    title: "Georgina Anderson - Safe Space Therapy",
+    github:
+      "https://github.com/georgeophill/georginas-therapy-site",
+    demo: "https://georginaanderson-safespace.com/",
   },
   {
     id: 2,
     image: IMG5,
     title: "Scotland Safaris",
     github:
-      "https://github.com/georgeophill/scotland-safaris/tree/main/scotland-safaris/scotland-safaris",
-    demo: "https://www.scotland-safaris.com/",
+      "https://github.com/georgeophill/highland-safari-web",
+    demo: "https://www.scotlandsafaris.com/",
+  },
+  {
+    id: 5,
+    image: IMG6,
+    title: "Teenagers Translated - A Parents Survival Guide",
+    github:
+      "https://github.com/georgeophill/scotland-safaris/tree/main/teenagers-translated",
+    demo: "https://www.teenagerstranslated.co.uk/",
   },
   {
     id: 1,
@@ -96,7 +114,7 @@ const Portfolio = () => {
                   className="btn btn-primary"
                   target="_blank"
                 >
-                  Demo
+                  Visit Website
                 </a>
               </div>
             </article>
