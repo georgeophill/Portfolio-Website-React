@@ -12,17 +12,20 @@
 }
 
 .contact__option {
-  background: var(--color-bg-variant);
+  background: rgba(19, 19, 32, 0.6);
   padding: 1.2rem;
-  border-radius: 1.2rem;
+  border-radius: 1rem;
   text-align: center;
-  border: 1px solid transparent;
+  border: 1px solid rgba(0, 255, 255, 0.2);
   transition: var(--transition);
+  backdrop-filter: blur(10px);
 }
 
 .contact__option:hover {
-  background: transparent;
-  border-color: var(--color-primary-varaint);
+  background: rgba(19, 19, 32, 0.8);
+  border-color: var(--color-primary);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 255, 255, 0.2);
 }
 
 .contact__option-icon {
@@ -49,10 +52,20 @@ textarea {
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
-  background: transparent;
-  border: 2px solid var(--color-primary-variant);
+  background: rgba(19, 19, 32, 0.6);
+  border: 2px solid rgba(0, 255, 255, 0.3);
   resize: none;
   color: var(--color-white);
+  backdrop-filter: blur(10px);
+  transition: var(--transition);
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--color-primary);
+  background: rgba(19, 19, 32, 0.8);
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2), inset 0 0 20px rgba(0, 255, 255, 0.05);
+  outline: none;
 }
 
 /*=================== Media Queries (Medium Devices) ====================*/
